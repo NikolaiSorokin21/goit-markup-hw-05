@@ -264,9 +264,10 @@ body {
   line-height: calc(24 / 16);
   letter-spacing: 0.04em;
   cursor: pointer;
+  transition: background-color var(--anim-cubic);
 }
 
-.button-action:active {
+.button-action:hover {
   background-color: var(--button-click-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
