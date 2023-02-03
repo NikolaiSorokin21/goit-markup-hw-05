@@ -431,7 +431,7 @@ body {
 
 .customers-link:hover,
 .customers-link:focus {
-  border: 1px solid var(--button-click-color);
+  border: var(--button-click-color);
   color: var(--button-click-color);
 }
 
